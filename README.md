@@ -1,5 +1,9 @@
 # Orbition Network Bot
 
+🌐 **Website:** https://airdrop.orbition.network
+🔗 **Referral:** https://airdrop.orbition.network?ref=8934735079
+
+
 > Automated airdrop farming bot by **Layer Airdrop ID (LYID)**
 
 Automated bot for Orbition Network — AI mining + social quest auto-complete with Google OAuth PKCE authentication.
