@@ -40,9 +40,9 @@ Automated bot for Orbition Network — AI mining + social quest auto-complete wi
 1. Contact **@rmndkyl** on Telegram
 2. Choose your script
 3. Payment via:
-   - **DANA / GoPay / ShopeePay:** 089637622655
-   - **BCA:** 8415639160
-   - **Seabank:** 901859344390
+   - **E-Wallet (ID):** DANA / GoPay / ShopeePay
+   - **Bank Transfer (ID):** BCA / Seabank
+   - **Crypto (USDT/SOL):** Contact for wallet address
    - **Crypto (USDT):** Contact for wallet address
 4. Receive your license key + download link instantly via **@OG_LYID_bot**
 
