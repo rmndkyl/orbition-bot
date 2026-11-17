@@ -1,76 +1,92 @@
-# Orbition Network Bot
+# Orbition Bot
 
-🌐 **Website:** https://airdrop.orbition.network
-🔗 **Referral:** https://airdrop.orbition.network?ref=8934735079
+**Versi:** 1.0.0 · **Harga:** Rp 100.000 (~$6) · **Kontak pembelian:** [@rmndkyl](https://t.me/rmndkyl)
 
+Script otomasi Orbition Bot untuk workflow LYID.
 
-> Automated airdrop farming bot by **Layer Airdrop ID (LYID)**
+## Kebutuhan
 
-Automated bot for Orbition Network — AI mining + social quest auto-complete with Google OAuth PKCE authentication.
-
-## Info
-
-| | |
+| Item | Detail |
 |---|---|
-| **Category** | Mining + Social Quests |
-| **Chain** | EVM |
-| **Version** | 1.0.0 |
-| **Platform** | Node.js |
+| Runtime | Node.js 18+ |
+| Wallet | EVM / sesuai chain proyek (kamu sendiri) |
+| Proxy | opsional (1 proxy per akun) |
+| Captcha | tidak perlu |
+| Akses | akun proyek yang kamu kelola sendiri |
 
-## Features
+## Pembayaran
 
-- Google OAuth PKCE authentication
-- AI mining auto-start
-- 9 social quest auto-complete
-- Multi-wallet support (13+ wallets)
-- Token persistence & auto-refresh
-- Reusable auth helper script
-- --daily mode for unattended operation
-
-## Pricing
-
-| License | Price (IDR) | Price (USD) |
-|---------|-------------|-------------|
-| **1 Device** | Rp 65,000 | $4 |
-
-> License is tied to 1 device (HWID-locked). Contact us for device reset.
-
-## How to Purchase
-
-1. Contact **@rmndkyl** on Telegram
-2. Choose your script
-3. Payment via:
-   - **E-Wallet (ID):** DANA / GoPay / ShopeePay
-   - **Bank Transfer (ID):** BCA / Seabank
-   - **Crypto (USDT/SOL):** Contact for wallet address
-4. Receive your license key + download link instantly via **@OG_LYID_bot**
-
-## Installation
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Add your wallet private keys to privateKey.txt (one per line)
-# 3. (Optional) Add proxies to proxy.txt
-
-# 4. Run
-node index.js
-
-# Daily mode (unattended)
-node index.js --daily
-```
-
-## Contact
-
-| | |
-|---|---|
-| **Telegram** | [@rmndkyl](https://t.me/rmndkyl) |
-| **Channel** | [@layerairdrop](https://t.me/layerairdrop) |
-| **Discussion** | [@layerairdropdiskusi](https://t.me/layerairdropdiskusi) |
-| **Discord** | [discord.gg/layerairdrop](https://discord.gg/layerairdrop) |
-| **GitHub** | [github.com/layerairdrop](https://github.com/layerairdrop) |
+E-Wallet: DANA / GoPay / ShopeePay · Bank: BCA / Seabank · Crypto: contact for wallet address.
+Pembeli menghubungi [@rmndkyl](https://t.me/rmndkyl), kirim bukti transfer, lalu terima license key.
 
 ---
 
-*Built by [Layer Airdrop ID](https://t.me/layerairdrop)*
+Auto bot for Orbition Network airdrop — AI Mining + Quest Completion.
+
+🌐 **Website:** https://airdrop.orbition.network
+
+## Features
+- Google OAuth PKCE authentication (stored token, auto-refresh)
+- EVM wallet auto-linking
+- AI Mining start
+- Auto-complete all quests (9 quests, ~3700 OBN total)
+- Multi-wallet support (12 wallets)
+- Proxy support (Monosans / Private / None)
+- Interactive menu + `--daily` flag for auto-run
+- Token persistence (tokens.json)
+
+## Setup
+```bash
+npm install
+node index.js
+```
+
+## First Run
+1. Bot shows Google OAuth URL
+2. Open URL in browser, login with Google
+3. Copy the full callback URL after redirect
+4. Paste into bot terminal
+5. Token saved to tokens.json for future runs
+
+## Daily Mode
+```bash
+node index.js --daily
+```
+Skips menu, runs Mining + All Quests automatically.
+Requires valid token in tokens.json from previous manual login.
+
+## Referral
+
+## Contact
+- Telegram: @rmndkyl
+- Channel: @layerairdrop
+- Group: @layerairdropdiskusi
+
+## Disclaimer
+Free and open source script by Layer Airdrop ID (LYID).
+
+## 💰 Harga
+
+| Lisensi | Harga | Fitur |
+|---------|-------|-------|
+| **Single** | Rp 100.000 / ~$6 | 1 device, lifetime |
+| **Bundle (3 bot)** | Rp 100.000 / ~$16 | Pilih 3 bot, hemat 20% |
+| **Pro (semua bot)** | Rp 100.000 / ~$70 | Semua bot + update, hemat 30% |
+
+**Cara beli:** Chat [@OG_LYID_bot](https://t.me/OG_LYID_bot) di Telegram → /buy
+
+**Bayar pakai:**
+- 🇮🇩 DANA / GoPay / ShopeePay / BCA / Seabank
+- 🌐 Crypto (USDT/SOL/ETH)
+
+## 🔧 Troubleshooting
+
+| Masalah | Solusi |
+|---------|--------|
+| `Cannot find module` | Jalankan `npm install` di folder bot |
+| `insufficient balance` | Pastikan wallet punya cukup token untuk gas |
+| `429 Too Many Requests` | Tunggu 30-60 detik, bot auto-retry |
+| Bot diam/tidak jalan | Cek `config.json` — pastikan API key valid |
+| License invalid | Chat [@OG_LYID_bot](https://t.me/OG_LYID_bot) → /verify |
+
+**Butuh bantuan?** Join [Discord](https://discord.gg/ZK2NVkfSNn) atau chat [@layerairdrop](https://t.me/layerairdrop)
